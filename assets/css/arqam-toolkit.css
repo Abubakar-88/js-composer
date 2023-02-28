@@ -1,0 +1,897 @@
+/*
+ CSS Indexing
+=>Default css
+=>Slider addon css
+=>Bordered btn css
+=>Logo carousel css
+=>service addon css
+=>Cal to action addon css
+=>Overlay css
+=>Benifit box addon css
+=>Testimonial addon css
+=>Contact form css
+=>Tile gallery addon css
+=>Project and work css
+=>Promobox addon css
+
+
+*/
+
+
+/*
+Default css
+*/
+
+
+.arqam-contact-box-area i.fa {
+    margin-left: 4px;
+}
+.arqam-contact-box-area h3 {
+    font-size: 17px;
+}
+.arqam-contact-box-area {
+    position: relative;
+    display: inline-block;
+    left: 0;
+    border: 1px solid #00beff00;
+    padding: 15px;
+    margin-left: 18px;
+    margin-bottom: 21px;
+    width: 300px;
+}
+.vc_wp_custommenu ul li a {
+    color: #5f5b5b;
+}
+
+/*
+Slider addon css
+*/
+
+.arqam-slide-item {
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	height: 730px;
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	font-size: 20px;
+}
+
+.arqam-slide-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+.arqam-slide-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.slide-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #504f4f;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.arqam-slide-item h2 {
+	font-size: 47px;
+	margin-bottom: 20px;
+}
+
+.vc_row.overlay {
+	z-index: 1;
+	color: rgb(255, 255, 255);
+}
+
+.arqam-slide .owl-nav div {
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	left: 50px;
+	top: 50%;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 50%;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+
+.arqam-slide .owl-nav div:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #fff;
+	z-index: -1;
+	opacity: .5;
+	border-radius: 50%;
+}
+
+.arqam-slide .owl-nav div.owl-next {
+	left: auto;
+	right: 50px;
+}
+
+div#arqam-slider .owl-prev {
+	visibility: hidden;
+	opacity: 0;
+	transition: .3s;
+}
+
+div#arqam-slider:hover .owl-prev,
+.owl-next {
+	visibility: visible;
+	opacity: 1;
+}
+
+div#arqam-slider .owl-next {
+	visibility: hidden;
+	opacity: 0;
+	transition: .3s;
+}
+
+div#arqam-slider:hover .owl-next {
+	visibility: visible;
+	opacity: 1;
+}
+
+.arqam-slide .owl-nav div i {
+	background: #fff;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	display: block;
+	line-height: 50px;
+	border-radius: 50%;
+}
+
+.arqam-slide:hover .owl-nav div {
+	opacity: 1;
+	visibility: visible;
+}
+
+.arqam-slides .owl-nav div:hover {
+	background: #5090ef;
+	color: #fff;
+}
+
+.arqam-slide-buttons {
+	margin-top: 30px;
+}
+
+.arqam-slide-buttons a {
+	color: #fff;
+	font-weight: 700;
+	font-size: 22px;
+	position: relative;
+}
+
+#arqam-slider button.owl-prev i.fa {
+	position: absolute;
+	display: block;
+	border: none;
+	top: 36%;
+	left: 30px;
+	font-size: 24px;
+	background: #fff;
+}
+
+#arqam-slider button.owl-next i.fa {
+	position: absolute;
+	top: 31%;
+	right: 30;
+	background: #fff;
+	font-size: 25px;
+}
+
+.owl-stage {
+	overflow: hidden;
+	height: auto;
+	display: flex;
+}
+
+.owl-item {
+	display: table;
+}
+
+#arqam-slider button.owl-next i.fa:hover {
+	opacity: 1;
+	visibility: visible;
+	background: #3bb6f1;
+	color: #fff;
+}
+
+#arqam-slider button.owl-prev i.fa:hover {
+	opacity: 1;
+	visibility: visible;
+	background: #3bb6f1;
+	color: #fff;
+}
+
+#arqam-slider button.owl-next i.fa {
+	position: absolute;
+	top: 38%;
+	right: 30;
+	background: #fff;
+	font-size: 25px;
+	right: 30px;
+}
+
+.arqam-slides-wrapper .preloader-wrapper {
+	position: absolute;
+}
+
+
+/*
+Bordered btn css
+*/
+
+.bordered-btn:after,
+.career-btn-content .arqam-cta-box.arqam-cta-box-theme1.bordered-btn {
+	position: absolute;
+	height: 8px;
+	width: 40%;
+	background: #f1df0b;
+	content: '';
+	bottom: 0;
+	left: 0;
+	transition: .3s;
+}
+
+.bordered-btn,
+.career-btn-content.bordered-btn {
+	padding-bottom: 13px;
+}
+
+.bordered-btn {
+	position: relative;
+	display: inline-block;
+}
+
+.bordered-btn:hover:after,
+.career-btn-content.bordered-btn {
+	width: 100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a.bordered-btn.arqam-slide-btn:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.career-btn-content .arqam-cta-box.arqam-cta-box-theme1 {
+	color: #333;
+	background: white;
+}
+
+.career-btn-content .arqam-cta-box.arqam-cta-box-theme1 h2 {
+	color: #333;
+}
+.arqam-contact-box-area i.fa {
+    color: #468cc6;
+    position: absolute;
+    left: 0;
+    margin-left: -46px;
+}
+
+/*
+Logo carousel css
+*/
+
+.arqam-logo-carousel.owl-loaded.owl-drag {
+	overflow: hidden;
+	position: relative;
+}
+
+.arqam-logo-carousel .owl-dot,
+.owl-prev,
+.owl-next {
+	visibility: hidden;
+}
+
+
+/*
+service addon css
+*/
+
+.arqam-service-box {
+	border: 1px solid #e8e5e5d1;
+	position: relative;
+	padding-left: 25%;
+	margin-bottom: 20px;
+	height: 100%;
+	width: 100%;
+}
+
+.arqam-service-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.arqam-service-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	font-size: 30px;
+}
+
+.arqam-service-icon i.fa {
+	border: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.arqam-service-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 25%;
+}
+
+.arqam-service-content {
+	padding: 13px;
+}
+
+.arqam-service-icon:after {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	background: #f0f6f8;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.arqam-service-icon {
+	z-index: 1;
+	position: absolute;
+}
+
+.arqam-service-box:hover {
+	box-shadow: 0 0 10px #cecbcbd1;
+	transition: .3s;
+}
+
+.arqam-service-box:hover .arqam-service-icon:after {
+	background-color: #3397c6;
+	opacity: 0.8;
+}
+
+.arqam-service-box:hover .arqam-service-icon {
+	color: #fff;
+}
+
+.arqam-service-icon i.fa {
+	vertical-align: middle;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	box-sizing: border-box;
+	top: 45%;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*
+  Cal to action addon css
+ */
+
+.arqam-cta-box {
+	text-align: center;
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 300;
+	background: #468cc6;
+	padding: 11px;
+}
+
+.arqam-cta-box h2 {
+	color: #fff;
+}
+
+.arqam-cta-box .bordered-btn {
+	position: relative;
+	color: #1d1a1a;
+	font-size: 21px;
+	font-weight: 700;
+	padding-bottom: 12px;
+	margin-top: 27px;
+	display: block;
+	background: white;
+	padding: 4px;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+
+.arqam-cta-box .bordered-btn:after {
+	display: none;
+}
+
+.arqam-cta-box .bordered-btn:hover {
+	text-decoration: none;
+}
+
+.arqam-cta-box .bordered-btn:after {
+	width: 70%;
+}
+
+.arqam-cta-box .bordered-btn:hover:after {
+	width: 100%;
+}
+.collaborate-page .bordered-btn {
+    width: 239px;
+    display: inline;
+    border-radius: 19px;
+    padding: 10px;
+    background: #16b3b3;
+    color: white;
+    text-transform: lowercase;
+}
+
+.collaborate-page .arqam-cta-box {
+    background: none;
+    text-align: center;
+    margin-right: 0;
+}
+
+/*
+
+ Overlay css
+ */
+
+.vc_row.overlay {
+	z-index: 1;
+	color: #fff;
+}
+
+.vc_row.overlay:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #20272a;
+	content: '';
+	opacity: .9;
+	z-index: -1;
+}
+
+.vc_row.preparing-overlay {
+	z-index: 1;
+	color: #fff;
+}
+
+.vc_row.preparing-overlay:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #1e8bc3;
+	content: '';
+	opacity: .9;
+	z-index: -1;
+}
+
+.overlay .bordered-btn {
+	color: #fff;
+}
+
+.overlay .bordered-btn:hover {
+	text-decoration: none;
+}
+
+
+/*
+Benifit box addon css
+*/
+
+.arqam-benefit-box p {
+	line-height: 24px;
+	padding-left: 24px;
+}
+
+.arqam-benefit-box i.fa {
+	border: none;
+	position: absolute;
+	font-size: 16px;
+	color: #60b9ceee;
+	padding-left: 44px;
+	line-height: 20px;
+}
+
+.arqam-benefit-box {
+	position: relative;
+	display: inline;
+}
+
+.arqam-stat-box h1 {
+	color: #39b4f3;
+	margin-bottom: 10px;
+}
+
+.list-box li:before {
+	font-family: fontAwesome;
+	content: "\f00c";
+}
+
+.list-box ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: #2dafaf;
+}
+
+.list-box li:before {
+	margin-right: 6px;
+	border: 1px solid #dedbdb40;
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 8px;
+	border-radius: 50%;
+	color: #31d6ce;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.list-box ul {
+	line-height: 23px;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body {
+	background-color: #fff;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading {
+	background-color: #fff;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:focus,
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:hover {
+	background-color: #fff !important;
+}
+
+.wpb-js-composer div.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+	background-color: #fff;
+}
+
+
+/*
+Testimonial addon css
+*/
+
+.single-testimonial-box {
+	font-style: italic;
+	margin-bottom: 70px;
+}
+
+.single-testimonial-box h3 {
+	font-size: 20px;
+	font-style: normal;
+	padding-top: 14px;
+}
+
+.single-testimonial-box h3 span {
+	display: block;
+	font-size: 18px;
+	line-height: 28px;
+	color: #636262bf;
+}
+
+
+/*
+Contact form css
+*/
+
+button[type=submit] i.fa {
+	position: relative;
+	border: none;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	font-size: 19px;
+	font-weight: 600;
+	padding-left: 3px;
+}
+
+button[type=submit] {
+	padding: 15px 24px 17px;
+	font-size: 20px;
+	margin-top: 21px;
+	color: #fff;
+	background-color: #1e8bc3;
+	border: none;
+	text-transform: uppercase;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid {
+	padding: 13px;
+	width: 261px;
+	background-color: #f5f8f9;
+	border: 1px solid #dcd3d3;
+}
+
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+	width: 260px;
+	padding: 15px;
+	background-color: #f5f8f9;
+	border: 1px solid #d8d6d6;
+}
+
+input.wpcf7-form-control {
+	padding: 15px;
+	width: 256px;
+	margin-bottom: 29px;
+	background-color: #f5f8f9;
+	border: 1px solid #dedcdc;
+}
+
+input.wpcf7-form-control:hover {
+	border: 1px solid;
+}
+
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required:hover {
+	border: 1px solid;
+}
+
+.vc_row.bg-left-bottom {
+	background-position: left bottom !important;
+	min-height: 623px;
+}
+
+
+/*
+Tile gallery addon css
+*/
+
+.arqam-tile-gallery {
+	margin-left: -1%;
+}
+
+.tile-gallery-block {
+	margin-left: 1%;
+	width: 24%;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 1%;
+}
+
+.arqam-tile-gallery-image3 .tile-gallery-block-1 {
+	width: 40%;
+}
+
+.arqam-tile-gallery-image3 .tile-gallery-block-3 {
+	width: 33%;
+}
+
+.arqam-tile-gallery-image5 .tile-gallery-block.tile-gallery-block-1 {
+	width: 60%;
+}
+
+.arqam-tile-gallery-image5 .tile-gallery-block.tile-gallery-block-2 {
+	width: 38%;
+}
+
+.arqam-tile-gallery-image5 .tile-gallery-block {
+	width: 32.33333%;
+}
+
+.big-text {
+	font-size: 18px;
+}
+
+.vc_wp_custommenu ul,
+ul.arqam-project-shorting {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*
+Project and work css
+*/
+
+.row.project-list-295913715 {
+	margin-top: 70px;
+}
+
+.vc_wp_custommenu li a,
+ul.arqam-project-shorting li,
+ul#menu-project-menu li {
+	margin-bottom: 5px;
+	padding: 12px;
+	border: 1px solid #eaececa8;
+	display: block;
+	position: relative;
+}
+
+ul.arqam-project-shorting li,
+ul#menu-project-menu li a {
+	cursor: pointer;
+}
+
+.vc_wp_custommenu ul li a {
+	/* padding: 19px; */
+}
+
+.vc_wp_custommenu ul li:hover>a,
+ul.arqam-project-shorting li:hover,
+ul#menu-project-menu li:hover>a,
+ul.arqam-project-shorting li.active {
+	background: #edf4f7;
+	transition: .3s;
+	text-decoration: none;
+}
+
+.vc_wp_custommenu li a::before,
+ul.arqam-project-shorting li::before,
+ul#menu-project-menu li a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0px;
+	height: 100%;
+	content: "";
+	background: #1e8bc3;
+	transition: .3s;
+}
+
+.vc_wp_custommenu li:hover>a::before,
+ul.arqam-project-shorting li:hover::before,
+ul#menu-project-menu li:hover>a::before,
+ul.arqam-project-shorting li.active::before {
+	width: 4px;
+}
+
+.menu-project-menu-container {
+	margin-top: 28px;
+}
+
+ul#menu-project-menu li:hover {
+	background: #edf4f7;
+	transition: .3s;
+	text-decoration: none;
+}
+
+i.fa.fa-link {
+	border: none;
+	position: relative;
+}
+
+.single-work-box {
+	display: block;
+	margin-bottom: 40px;
+}
+
+.work-box-bg {
+	position: relative;
+	height: 286px;
+	background-position: center;
+	background-size: cover;
+	background-color: #ddd;
+	z-index: 1;
+}
+
+.work-box-bg:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #4183be;
+	content: '';
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+
+.work-box-bg i.fa {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 50%;
+	left: 50%;
+	background: #000;
+	font-size: 16px;
+	color: white;
+	border-radius: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+
+.single-work-box:hover .work-box-bg i.fa {
+	opacity: 1;
+	visibility: visible;
+}
+
+.single-work-box:hover .work-box-bg:after {
+	visibility: visible;
+	opacity: .5;
+}
+
+.single-work-box p {
+	font-size: 20px;
+	color: #000;
+	font-weight: 700;
+	padding: 10px;
+	text-align: center;
+}
+
+.arqam-project-shorting-2 {
+	margin-bottom: 50px;
+	padding: 0;
+	list-style: none;
+	margin-left: 0;
+	cursor: pointer;
+	margin-top: 22px;
+}
+
+.arqam-project-shorting-2 li {
+	display: inline-block;
+	padding-right: 10px;
+	border: 1px solid #ebeef1;
+	padding: 4px;
+	margin-right: 3px;
+	background: #468cc6;
+	color: white;
+}
+
+.arqam-project-shorting-2 li.active {
+	color: #478dd8;
+	background: rgba(158, 148, 247, 0.144);
+}
+
+
+/*
+Promobox addon css
+*/
+.vc_row.career-cta-content .arqam-promo-box .bordered-btn {
+    display: block;
+    position: absolute;
+}
+.vc_row.promo-box-career-content .arqam-promo-box {
+    display: block;
+    margin-bottom: 40px;
+    border: 1px solid #d9e4ea;
+    padding: 25px;
+    padding-bottom: 47px;
+}
+.vc_row.promo-box-career-content .arqam-promo-box .bordered-btn {
+    display: block;
+    position: absolute;
+}
+
+.vc_row.career-cta-content .arqam-promo-box h2 {
+	font-style: italic;
+	margin-bottom: 40px;
+}
